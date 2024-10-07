@@ -1,13 +1,13 @@
-*{
+*{/* star is universal id selector*/
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-h3{
+h3{/* here h3 is element selector*/
     color:#f52936
 }
 h1{
     color: #f52936;
 }
-#login{
+#login{/*here #login is id selector*/
     color: white;
     background-color: #000;
 }
@@ -15,18 +15,22 @@ h1{
     color: #fff;
     background-color:#f52936;
 }
-.upvote{
+.upvote{/*here .upvote is class selector*/
     background-color: green;
     color: #fff;
 }
 
-#myid p{
+#myid p{/*here we use decendent selector*/
     color: green;
 }
-.post a {
+.post a {/*here we also use decendent selector*/
     color:#000;
     background-color: yellow;
 }
-nav ul li a{
+nav ul li a{/*here use multiple leve decendent selector*/
     color: deeppink;
+}
+.upvote + button{/*here we use Adjecent sibling Combinator*/
+    background-color: slateblue;
+    color: #fff;
 }
