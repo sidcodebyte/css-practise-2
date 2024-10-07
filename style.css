@@ -1,0 +1,32 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color:#f52936
+}
+h1{
+    color: #f52936;
+}
+#login{
+    color: white;
+    background-color: #000;
+}
+#signup{
+    color: #fff;
+    background-color:#f52936;
+}
+.upvote{
+    background-color: green;
+    color: #fff;
+}
+
+#myid p{
+    color: green;
+}
+.post a {
+    color:#000;
+    background-color: yellow;
+}
+nav ul li a{
+    color: deeppink;
+}
