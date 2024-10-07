@@ -34,3 +34,12 @@ nav ul li a{/*here use multiple leve decendent selector*/
     background-color: slateblue;
     color: #fff;
 }
+div > input{/* > sign is used for child combinator*/
+    background-color: #a6ddc813;
+    }
+    input[type="text"]{/*here we use attribute selector*/
+        color:red ;
+    }
+input[type="password"]{/*attribute selector is used*/
+    color: green;
+}
